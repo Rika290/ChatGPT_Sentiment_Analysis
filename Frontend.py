@@ -33,7 +33,7 @@ elif(choice=='Analysis'):
         data['Sentiment']=list_t
         st.header('Analysed  Successfully')
         st.dataframe(data)        
-        chi=st.selectbox('Choose',('Pie Chart','Histogram'))
+        chi=st.selectbox('Choose',('Pie Chart'))
         if(chi=='Pie Chart'):
             positive=(len(data[data['Sentiment']=='Sentiment is positive'])/len(data))*100
             negative=(len(data[data['Sentiment']=='Sentiment is negative'])/len(data))*100
