@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 # from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 import plotly.express as px
