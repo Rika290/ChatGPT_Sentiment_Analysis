@@ -1,6 +1,8 @@
 import pandas as pd
 import streamlit as st
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+# from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 import plotly.express as px
 st.set_page_config(page_icon='https://www.memind.eu/wp-content/uploads/2022/01/sentiment-analysis-emotion-detection.jpg',page_title='Sentiment analysis')
 st.title('Welcome to Sentiment Analysis \n 😄😥😏')
