@@ -1,4 +1,0 @@
-vaderSentiment
-nltk
-streamlit
-
