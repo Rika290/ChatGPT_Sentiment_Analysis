@@ -1,9 +1,11 @@
 Sentiment Analysis on ChatGPT tweets
 
 ABOUT:
-This project is based on Sentiment Analysis which is utilised by many companies around the world through reviews,feedbacks etc in order to gain insights and improve their business
+
+This project is based on Sentiment Analysis which is utilised by many companies around the world through reviews,feedbacks etc in order to gain insights and improve their business.
+Sentiment analysis is a natural language processing (NLP) technique used to determine whether data is positive, negative or neutral
 - (1) VADER Sentiment Analysis :-
-- VADER stands for Valence Aware Dictionary and Sentiment Reasoner, a sentiment analysis tool which helps in analysing texts and obtaining sentiment scores
+- VADER stands for Valence Aware Dictionary and Sentiment Reasoner, a sentiment analysis tool(or) Natural Language Tool Kit (NLTK)module which helps in analyzing texts and obtaining sentiment scores
 -  Mainly used for analysing social media sentiment texts
 - Can easily handle different texts
 
